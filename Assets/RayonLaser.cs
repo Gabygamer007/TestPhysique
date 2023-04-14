@@ -10,11 +10,13 @@ public class RayonLaser : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        laser = GetComponent<VolumetricLineBehavior>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        laser.StartPos = transform.position;
+        laser.EndPos = cible.position;
     }
 }
