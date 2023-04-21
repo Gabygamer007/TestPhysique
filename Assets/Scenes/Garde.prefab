@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 3838780171424657919}
   - component: {fileID: 3838780171424657918}
   - component: {fileID: 3838780171424657917}
+  - component: {fileID: 7884837844542316997}
   m_Layer: 7
   m_Name: Garde
   m_TagString: Untagged
@@ -76,7 +77,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_Sprite: {fileID: -2413806693520163455, guid: a86470a33a6bf42c4b3595704624658b, type: 3}
-  m_Color: {r: 0.4263049, g: 0.9529412, b: 0.023529397, a: 1}
+  m_Color: {r: 1, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -123,3 +124,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &7884837844542316997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3838780171424657915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16652374ff6c1d848add5299e1c6a751, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

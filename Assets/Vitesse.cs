@@ -9,6 +9,8 @@ public class Vitesse : MonoBehaviour
     void Start()
     {
         rig = GetComponent<Rigidbody2D>();
+        // Non affecté par la masse
+        rig.velocity = Vector2.right * 10.0f;
     }
 
     // Update is called once per frame
